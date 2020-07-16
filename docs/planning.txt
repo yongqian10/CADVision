@@ -1,2 +1,72 @@
-test something
+CADVision proposal
+
+Scope
+-> create and build an inhouse vision software platform.
+-> introduce flexibility and ease designing complex vision system
+
+Problem with existing vision software Ni Vision
+-> not in-house
+-> poor processing performance
+
+-> not modular
+  -> unable to package existing design and reuse
+
+-> not concurrent, single instance, single process
+
+ -> cant perform algorithm involves multi frames automatically
+    -> no 'masterplan' mode.
+
+-> limited computing resources
+  ->  not enough function supported in "calculator" directory
+
+-> terminal not supported / unable to integrated with terminal
+
+-> limited algorithm supported.
+  -> tracking
+    -> only traditional mean shift algo is available
+
+-> limited simulation mode
+  -> lighting simulation
+  -> multiple angle simulation
+
+-> no self defined/draw pattern
+
+-> limited gui element
+  -> should able to accept xml file
+
+-> not allow to open multiple file/ project
+  -> should be able to open(at least on read only mode)
+
+-> self define coordinate point have to rely on an 'feature detected' make detection and calculation not consistent
+
+-> missing/ mediocre 3D inspection support
+
+Proposed method
+-> enable "master" view intepretation.
+-> multi instance processing.
+-> design packaging and reuse
+-> user free to add their own algorithm
+-> simulation environment and layout
+-> feedback to user(algorithm processing time, algorithm accuracy)
+-> more user friendly app layout
+-> introduce more algorithm
+-> improve performance
+-> user able to create their gui with xml file
+-> embedded terminal into app
+
+Project budget
+-> utilizing free softwares only
+
+Project flow
+-> stage 1  initialization (3 months)
+  -> build skeleton GUI with QT(C++)
+  -> model algorithms
+
+ -> stage 2 combining works
+  -> link algorithms with GUI and perform testing
+  -> get a working app
+
+ -> stage 3 optimizing
+  -> change python code to C++
+  -> perform multithreading
 
