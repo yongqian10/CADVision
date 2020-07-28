@@ -6,7 +6,8 @@ qtImageViewerTest::qtImageViewerTest(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::qtImageViewerTest)
 {
   ui->setupUi(this);
-  connect(ui->imageViewerButton, SIGNAL(clicked(bool)), SLOT(onOpenFile()));
+
+  connect(m_imageViewerWindow->ui->openImgButton, SIGNAL(clicked(bool)), SLOT(onOpenFile()));
 }
 
 qtImageViewerTest::~qtImageViewerTest()

@@ -20,6 +20,9 @@ public:
   bool loadImage();
   void setFilePath(const QString &filePath);
 
+  // NOTE moved ui to protected | however qt not allow it
+  Ui::imageViewerWindow *ui;
+
 protected:
   void resizeEvent(QResizeEvent *event) override;
 
@@ -28,7 +31,6 @@ private:
   QSize getScaledSize();
   void setScaledImage();
 
-  Ui::imageViewerWindow *ui;
   QPixmap m_image;
   double m_scaleFactor = 1.0;
   QString m_filePath;
