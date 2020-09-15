@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>Images/bold.png</file>
+        <file>Images/copy.png</file>
+        <file>Images/create.png</file>
+        <file>Images/cut.png</file>
+        <file>Images/edit_redo.png</file>
+        <file>Images/edit_undo.png</file>
+        <file>Images/exit.png</file>
+        <file>Images/font.png</file>
+        <file>Images/info.png</file>
+        <file>Images/italic.png</file>
+        <file>Images/new.png</file>
+        <file>Images/open.png</file>
+        <file>Images/open-image.png</file>
+        <file>Images/paste.png</file>
+        <file>Images/pencil.png</file>
+        <file>Images/penta-logo.jpg</file>
+        <file>Images/print.png</file>
+        <file>Images/save.png</file>
+        <file>Images/save_as.png</file>
+        <file>Images/underline.png</file>
+        <file>Images/zoom-in.png</file>
+        <file>Images/zoom-out.png</file>
+        <file>Images/fit-to-window.png</file>
+    </qresource>
+</RCC>
